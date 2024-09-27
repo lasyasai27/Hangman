@@ -33,7 +33,7 @@ def play_one_round(PhraseBank): #plays one round of the game
         if letter_stars == phrase:
             print("\nYOU WIN!!!!")
             return
-    print("\nYou lose. The secret hrase was " + phrase)
+    print("\nYou lose. The secret phrase was " + phrase)
 
 
 def replace_by_stars(phrase, remaining_letters): #takes target phrase and replaces all remaining letters by *
